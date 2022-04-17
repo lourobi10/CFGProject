@@ -1,0 +1,26 @@
+.navbar{
+    display:flex;
+    column-gap: 0.4cm;
+    background-color:black;
+}
+
+a{
+    color:white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.title{
+    display:flex;
+    justify-content:center;
+    background-color:lightskyblue;
+    color:black;
+    font-family:'Plus Jakarta Sans', sans-serif;
+}
+
+.intro{
+    display:flex;
+    justify-content:center;
+    background-color:white;
+    color:black;
+    font-family:'Plus Jakarta Sans', sans-serif;
+}
