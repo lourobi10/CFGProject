@@ -9,18 +9,29 @@ a{
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.title{
+.flexbox-container{
     display:flex;
-    justify-content:center;
-    background-color:lightskyblue;
-    color:black;
-    font-family:'Plus Jakarta Sans', sans-serif;
+    flex-direction: row;
+    flex-basis: content;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgb(2, 132, 184);
+    border: 3px solid black;
 }
 
-.intro{
-    display:flex;
-    justify-content:center;
-    background-color:white;
+.flexbox1{
+    border: 3px solid black;
+}
+
+.flexbox2{
     color:black;
-    font-family:'Plus Jakarta Sans', sans-serif;
+    background-color:white;
+    width: 400px;
+    height: 100px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    border: 3px solid black;
+}
+.flexbox3{
+    border: 3px solid black;
 }
