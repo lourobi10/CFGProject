@@ -49,6 +49,7 @@ a{
 
 }
 .flexbox5{
+    display:flex;
     color:black;
     background-color:white;
     width: 400px;
@@ -59,6 +60,7 @@ a{
 }
 
 .flexbox6 {
+    display:flex;
     color:black;
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align:center;
