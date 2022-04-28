@@ -35,3 +35,9 @@ a{
 .flexbox3{
     border: 3px solid black;
 }
+
+html{
+    scroll-behaviour:smooth;
+    <a> href="#Restaurants"></a>
+    <div id="Restaurants"></div>
+} 
