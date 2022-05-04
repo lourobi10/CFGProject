@@ -1,78 +1,29 @@
 .navbar{
     display:flex;
-    column-gap: 0.4cm;
-    background-color:black;
+    column-gap: 0.6cm;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: black;
 }
 
-a{
+a:visited{
     color:white;
-    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.flexbox-container{
+a:hover{
+    color:hotpink;
+}
+
+.imgGalleryLancaster{
+    padding-top:10px;
     display:flex;
-    flex-direction: row;
-    flex-basis: content;
-    justify-content: space-around;
-    align-items:center;
-    background-color: rgb(2, 132, 184);
-    border: 3px solid black;
+    justify-content: space-evenly;
 }
 
-.flexbox1{
-    border: 3px solid black;
-}
-
-.flexbox2{
-    color:black;
-    background-color:white;
-    width: 400px;
-    height: 100px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    text-align: center;
-    border: 3px solid black;
-}
-.flexbox3{
-    border: 3px solid black;
-}
-
-.flexbox-container2{
+.introLancaster{
     display:flex;
-    flex-direction: row;
-    flex-basis: content;
-    justify-content: space-around;
-    align-content:stretch;
-    background-color:white;
-}
-
-.flexbox4{
-
-}
-.flexbox5{
-    display:flex;
-    color:black;
-    background-color:white;
-    width: 400px;
-    height: 100px;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    text-align:center;
-    font-size: 14px;
-}
-
-.flexbox6 {
-    display:flex;
-    color:black;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    text-align:center;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
-}
-
-.Weblink {
-    color:black;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    text-align:center;
 }
 
 .html{
