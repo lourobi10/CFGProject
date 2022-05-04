@@ -20,10 +20,17 @@ a:hover{
 }
 
 .introLancaster{
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding-bottom: 10px;
+    border-style: dashed;
+    border-color: black;
     display:flex;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    max-width: 300px;
 }
 
 .html{
