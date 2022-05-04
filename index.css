@@ -39,6 +39,7 @@ a:hover{
 }
 
 .flexContainerPlacesToVisit{
+    width:100%;
     margin-top: 20px;
     margin-bottom:20px;
     margin-left:20px;
@@ -46,17 +47,55 @@ a:hover{
     border-style: dashed;
     border-color: black;
     display:flex;
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
 }
-.placesToVisitImg{
+
+.cardContainerVisitLancaster{
+    display:flex;
+    justify-content: center;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+}
+
+.cardBodyCastle{
     display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content:space-evenly;
+    text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.placesToVisitText{
+.cardBodyMuseum{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
 
+.cardBodyPark{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cardTitleCastle{
+    font-size: medium;
+    font-style: bold;
+}
+
+.cardTitleMuseum{
+    font-size: medium;
+    font-style: bold;
+}
+
+.cardTitlePark{
+    font-size: medium;
+    font-style: bold;
 }
 
 .html{
