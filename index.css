@@ -103,7 +103,7 @@ a.buttonCastle:visited{
 }
 
 a.buttonCastle:hover{
-    color:rgb(216, 33, 125)
+    color:hotpink;
 }
 
 a.buttonMuseum:visited{
@@ -115,11 +115,16 @@ a.buttonPark:visited{
 }
 
 a.buttonMuseum:hover{
-    color:rgb(216, 33, 125)
+    color:hotpink;
 }
 
 a.buttonPark:hover{
-    color:rgb(216, 33, 125)
+    color:hotpink;
+}
+.placesToEat{
+border-style: solid;
+border-color: black;
+border-width: 100%;
 }
 
 .html{
