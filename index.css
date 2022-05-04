@@ -19,6 +19,11 @@ a:hover{
     justify-content: space-evenly;
 }
 
+.flexContainerLancaster{
+    display:flex;
+    flex-direction: row;
+}
+
 .introLancaster{
     margin-top: 20px;
     margin-bottom:20px;
@@ -33,6 +38,15 @@ a:hover{
     max-width: 300px;
 }
 
+.placesToVisit{
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 10px;
+    border-style: dashed;
+    border-color: black;
+    display:flex;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
 .html{
     scroll-behaviour:smooth;
     <a> href="#Restaurants"></a>
