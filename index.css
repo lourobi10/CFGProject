@@ -102,6 +102,26 @@ a.buttonCastle:visited{
     color:blue;
 }
 
+a.buttonCastle:hover{
+    color:rgb(216, 33, 125)
+}
+
+a.buttonMuseum:visited{
+    color:blue;
+}
+
+a.buttonPark:visited{
+    color:blue;
+}
+
+a.buttonMuseum:hover{
+    color:rgb(216, 33, 125)
+}
+
+a.buttonPark:hover{
+    color:rgb(216, 33, 125)
+}
+
 .html{
     scroll-behaviour:smooth;
     <a> href="#Restaurants"></a>
