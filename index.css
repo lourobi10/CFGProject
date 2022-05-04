@@ -98,6 +98,10 @@ a:hover{
     font-style: bold;
 }
 
+a.buttonCastle:visited{
+    color:blue;
+}
+
 .html{
     scroll-behaviour:smooth;
     <a> href="#Restaurants"></a>
