@@ -1,3 +1,18 @@
+.navbar{
+    display:flex;
+    column-gap: 0.6cm;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: black;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:hotpink;
+}
+
 body{
 
     background-color: #F9A826;
@@ -32,5 +47,5 @@ body{
 
     padding: 20px;
     background-color: #eee;
-        padding-bottom: 50px;
+    padding-bottom: 50px;
     padding-top: 50px;
