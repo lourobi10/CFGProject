@@ -358,7 +358,7 @@ a.buttonFrench:hover{
 }
 
 .html{
-    scroll-behaviour:smooth;
+    scroll-behavior:smooth;
     <a> href="#Restaurants"></a>
     <div id="Restaurants"></div>
 } 
