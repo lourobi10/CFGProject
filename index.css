@@ -28,6 +28,87 @@
     font-weight: bolder;
 }
 
+.cityPicker{
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.cardContainerCityPicker{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    width:94%;
+    margin:20px;
+    padding:20px;
+    border-style: dashed;
+    border-color: black;
+}
+
+.cardBodyLanc{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cardBodyNotts{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cardBodyComingSoon{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cardTitleLanc{
+    font-size: medium;
+    font-style: bold;
+    text-align: justify;
+}
+
+.cardTitleNotts{
+    font-size: medium;
+    font-style: bold;
+    text-align:justify;
+}
+
+.cardTitleComingSoon{
+    font-size: medium;
+    font-style: bold;
+    text-align: justify;
+}
+
+a.buttonLanc:visited{
+    color:blue;
+}
+
+a.buttonLanc:hover{
+    color:hotpink;
+}
+
+a.buttonNotts:visited{
+    color:blue;
+}
+
+a.buttonComingSoon:visited{
+    color:blue;
+}
+
+a.buttonNotts:hover{
+    color:hotpink;
+}
+
+a.buttonComingSoon:hover{
+    color:hotpink;
+}
 a:visited{
     color:white;
 }
