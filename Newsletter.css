@@ -13,9 +13,19 @@ a:hover{
     color:hotpink;
 }
 
+.containerNewsletter{
+display:flex;
+align-content:center;
+}
+
 body{
 
     background-color: #F9A826;
+}
+.row{
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .rows{
@@ -54,3 +64,4 @@ body{
     padding-left: 50px;
     font-family:'Plus Jakarta Sans', sans-serif;
 }
+
