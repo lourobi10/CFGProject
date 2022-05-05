@@ -5,6 +5,26 @@
     background-color: black;
 }
 
+.containerIntro{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titlePage{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    margin:20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cityImages{
+    display:flex;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 a:visited{
     color:white;
 }
