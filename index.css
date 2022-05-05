@@ -5,6 +5,13 @@
     background-color: black;
 }
 
+.navbar1{
+        display:flex;
+        column-gap: 0.6cm;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: black;
+}
+
 .titlePage{
     display:flex;
     justify-content: center;
@@ -109,6 +116,14 @@ a.buttonNotts:hover{
 a.buttonComingSoon:hover{
     color:hotpink;
 }
+.a1:visited{
+    color:white;
+}
+
+.a1:hover{
+    color:hotpink;
+}
+
 a:visited{
     color:white;
 }
