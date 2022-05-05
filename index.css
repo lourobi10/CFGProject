@@ -5,24 +5,15 @@
     background-color: black;
 }
 
-.containerIntro{
+.titlePage{
     display:flex;
     justify-content: center;
     flex-direction: column;
-}
-
-.titlePage{
-    display:flex;
-    width:100%;
-    justify-content: center;
     align-content: center;
     margin:20px;
+    background-color: hotpink;
     font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-.cityImages{
-    display:flex;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
 }
 
 a:visited{
