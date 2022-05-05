@@ -1,79 +1,72 @@
 .navbar{
     display:flex;
-    column-gap: 0.4cm;
-    background-color:rgba(3, 0, 0, 0.008);
-    font-size: larger;
-}
-
-a{
-    color:white;
+    column-gap: 0.6cm;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: black;
 }
 
-.flexbox-container{
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:hotpink;
+}
+
+.imgGalleryLancaster{
+    padding-top:10px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.flexContainerLancaster{
     display:flex;
     flex-direction: row;
-    flex-basis: content;
-    justify-content: space-around;
-    align-items:center;
-    background-color: rgb(2, 132, 184);
-    border: 3px solid black;
 }
 
-.flexbox1{
-    border: 3px solid black;
-}
-
-.flexbox2{
-    color:black;
-    background-color:white;
-    width: 400px;
-    height: 100px;
+.introLancaster{
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding-bottom: 10px;
+    border-style: dashed;
+    border-color: black;
+    display:flex;
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
-    border: 3px solid black;
-}
-.flexbox3{
-    border: 3px solid black;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
 }
 
-.flexbox-container2{
+.flexContainerPlacesToVisit{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    padding-bottom: 10px;
+    border-style: dashed;
+    border-color: black;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+}
+
+.cardContainerVisitLancaster{
+    display:flex;
+    justify-content: center;
+}
+
+.row{
     display:flex;
     flex-direction: row;
-    flex-basis: content;
-    justify-content: space-around;
-    align-content:stretch;
-    background-color:white;
 }
 
-.flexbox4{
-
-}
-.flexbox5{
+.cardBodyCastle{
     display:flex;
-    color:black;
-    background-color:white;
-    width: 400px;
-    height: 100px;
+    flex-direction: column;
+    text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    text-align:center;
-    font-size: 14px;
-}
-
-.flexbox6 {
-    display:flex;
-    color:black;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    text-align:center;
-    flex-direction:column;
-    justify-content: center;
-    align-content: center;
-}
-
-.Weblink {
-    color:black;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-<<<<<<< HEAD
 }
 
 .cardBodyMuseum{
@@ -134,18 +127,9 @@ border-color: black;
 border-width: 100%;
 
   
-=======
-    text-align:center;
-}
->>>>>>> d2fd58067bd1b36551ff4a08124dd4c101b5e47c
 
 .html{
     scroll-behaviour:smooth;
     <a> href="#Restaurants"></a>
     <div id="Restaurants"></div>
 } 
-
-
-
-
-
