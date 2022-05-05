@@ -11,9 +11,21 @@
     flex-direction: column;
     align-content: center;
     margin:20px;
+    padding:20px;
+    border-style: dashed;
+    border-color: black;
     background-color: hotpink;
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
+}
+
+.introTitle{
+    font-weight: bolder;
+}
+
+.note{
+    font-size: small;
+    font-weight: bolder;
 }
 
 a:visited{
