@@ -15,6 +15,7 @@ a:hover{
 
 .containerNewsletter{
 display:flex;
+justify-content: center;
 align-content:center;
 }
 
@@ -29,7 +30,6 @@ body{
 }
 
 .rows{
-
     height: 100vh;
 }
 

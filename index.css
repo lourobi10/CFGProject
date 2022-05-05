@@ -121,12 +121,137 @@ a.buttonMuseum:hover{
 a.buttonPark:hover{
     color:hotpink;
 }
-.placesToEat{
-border-style: solid;
-border-color: black;
-border-width: 100%;
 
-  
+.flexContainerPlacesToEat{
+    width:auto;
+    margin:auto;
+    padding:15px;
+    border-style: solid;
+    border-color: black;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+}
+
+.cardContainerFood{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+}
+
+.cardBodyPizza{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cardBodyCoffee{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cardBodyWitch{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cardBodyFrench{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cardTitlePizza{
+    font-size: medium;
+    font-style: bold;
+}
+
+.cardTitleCoffee{
+    font-size: medium;
+    font-style: bold;
+}
+
+.cardTitleWitch{
+    font-size: medium;
+    font-style: bold;
+}
+
+.cardTitleFrench{
+    font-size: medium;
+    font-style: bold;
+}
+
+a.buttonPizza:visited{
+    color:blue;
+}
+
+a.buttonPizza:hover{
+    color:hotpink;
+}
+
+a.buttonCoffee:visited{
+    color:blue;
+}
+
+a.buttonCoffee:hover{
+    color:hotpink;
+}
+
+a.buttonWitch:visited{
+    color:blue;
+}
+
+a.buttonWitch:hover{
+    color:hotpink;
+}
+
+a.buttonFrench:visited{
+    color:blue;
+}
+
+a.buttonFrench:hover{
+    color:hotpink;
+}
+
+.videoContainer{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+.facts{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.videoLancaster{
+    display:flex;
+    width:fit-content;
+    margin-top:20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.funFact{
+    color:hotpink;
+    text-align:center;
+}
 
 .html{
     scroll-behaviour:smooth;
